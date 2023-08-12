@@ -1,0 +1,2160 @@
+{
+	"TransXChange": {
+		"ServicedOrganisations": {
+			"ServicedOrganisation": {
+				"OrganisationCode": "Sch",
+				"Name": "Schooldays Only"
+			}
+		},
+		"NptgLocalities": "",
+		"StopPoints": {
+			"AnnotatedStopPointRef": [
+				{
+					"StopPointRef": "1800EH05241",
+					"CommonName": "Guide Bridge",
+					"Indicator": "Stop C",
+					"LocalityName": "Guide Bridge"
+				},
+				{
+					"StopPointRef": "1800EH05261",
+					"CommonName": "Oxford Park",
+					"Indicator": "opp",
+					"LocalityName": "Guide Bridge"
+				},
+				{
+					"StopPointRef": "1800EH05291",
+					"CommonName": "Trafalgar Square",
+					"Indicator": "at",
+					"LocalityName": "Guide Bridge"
+				},
+				{
+					"StopPointRef": "1800EH05301",
+					"CommonName": "Grosvenor Street",
+					"Indicator": "nr",
+					"LocalityName": "Guide Bridge"
+				},
+				{
+					"StopPointRef": "1800EH39211",
+					"CommonName": "Chester Square",
+					"Indicator": "adj",
+					"LocalityName": "Chester Square",
+					"LocalityQualifier": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EHH1771",
+					"CommonName": "Margaret Street",
+					"Indicator": "N-bound",
+					"LocalityName": "Chester Square",
+					"LocalityQualifier": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EH35871",
+					"CommonName": "Kenyon Street",
+					"Indicator": "opp",
+					"LocalityName": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EH08251",
+					"CommonName": "Ashton West Metrolink Stop",
+					"Indicator": "Stop C",
+					"LocalityName": "Ashton Moss",
+					"LocalityQualifier": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EH35971",
+					"CommonName": "Crowhill Road",
+					"Indicator": "nr",
+					"LocalityName": "Crowhill",
+					"LocalityQualifier": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EH04781",
+					"CommonName": "Ullswater Avenue",
+					"Indicator": "nr",
+					"LocalityName": "Crowhill",
+					"LocalityQualifier": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EH14801",
+					"CommonName": "Oldham Road",
+					"Indicator": "nr",
+					"LocalityName": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EH20921",
+					"CommonName": "Christ Church",
+					"Indicator": "o/s",
+					"LocalityName": "Waterloo",
+					"LocalityQualifier": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EH20951",
+					"CommonName": "Atlas Street",
+					"Indicator": "opp",
+					"LocalityName": "Waterloo",
+					"LocalityQualifier": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EH21571",
+					"CommonName": "Oldham Road",
+					"Indicator": "Stop E",
+					"LocalityName": "Waterloo",
+					"LocalityQualifier": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EH21591",
+					"CommonName": "Vicarage Road",
+					"Indicator": "opp",
+					"LocalityName": "Waterloo",
+					"LocalityQualifier": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EH21621",
+					"CommonName": "Wood Lane",
+					"Indicator": "Stop B",
+					"LocalityName": "Smallshaw",
+					"LocalityQualifier": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EH20831",
+					"CommonName": "Laburnum Avenue",
+					"Indicator": "nr",
+					"LocalityName": "Smallshaw",
+					"LocalityQualifier": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EH20811",
+					"CommonName": "Coronation Road",
+					"Indicator": "opp",
+					"LocalityName": "Smallshaw",
+					"LocalityQualifier": "Ashton-under-Lyne"
+				},
+				{
+					"StopPointRef": "1800EHH2361",
+					"CommonName": "New Charter Academy",
+					"LocalityName": "Smallshaw",
+					"LocalityQualifier": "Ashton-under-Lyne"
+				}
+			]
+		},
+		"RouteSections": {
+			"RouteSection": {
+				"RouteLink": [
+					{
+						"From": {
+							"StopPointRef": "1800EH05241"
+						},
+						"To": {
+							"StopPointRef": "1800EH05261"
+						},
+						"Distance": "219",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.113671",
+										"Latitude": "53.476086"
+									},
+									{
+										"Longitude": "-2.113565",
+										"Latitude": "53.47614"
+									},
+									{
+										"Longitude": "-2.113137",
+										"Latitude": "53.476406"
+									},
+									{
+										"Longitude": "-2.111976",
+										"Latitude": "53.477106"
+									},
+									{
+										"Longitude": "-2.111564",
+										"Latitude": "53.477345"
+									},
+									{
+										"Longitude": "-2.11135",
+										"Latitude": "53.477487"
+									}
+								]
+							}
+						},
+						"_id": "59_1"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH05261"
+						},
+						"To": {
+							"StopPointRef": "1800EH05291"
+						},
+						"Distance": "391",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.11135",
+										"Latitude": "53.477487"
+									},
+									{
+										"Longitude": "-2.110372",
+										"Latitude": "53.47809"
+									},
+									{
+										"Longitude": "-2.109272",
+										"Latitude": "53.478764"
+									},
+									{
+										"Longitude": "-2.108171",
+										"Latitude": "53.479465"
+									},
+									{
+										"Longitude": "-2.108094",
+										"Latitude": "53.479545"
+									},
+									{
+										"Longitude": "-2.108062",
+										"Latitude": "53.479643"
+									},
+									{
+										"Longitude": "-2.107999",
+										"Latitude": "53.479769"
+									},
+									{
+										"Longitude": "-2.107905",
+										"Latitude": "53.479929"
+									},
+									{
+										"Longitude": "-2.107828",
+										"Latitude": "53.480045"
+									},
+									{
+										"Longitude": "-2.107721",
+										"Latitude": "53.480116"
+									},
+									{
+										"Longitude": "-2.107689",
+										"Latitude": "53.48017"
+									}
+								]
+							}
+						},
+						"_id": "59_2"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH05291"
+						},
+						"To": {
+							"StopPointRef": "1800EH05301"
+						},
+						"Distance": "174",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.107689",
+										"Latitude": "53.48017"
+									},
+									{
+										"Longitude": "-2.107674",
+										"Latitude": "53.480188"
+									},
+									{
+										"Longitude": "-2.107643",
+										"Latitude": "53.480223"
+									},
+									{
+										"Longitude": "-2.107627",
+										"Latitude": "53.48025"
+									},
+									{
+										"Longitude": "-2.107581",
+										"Latitude": "53.480304"
+									},
+									{
+										"Longitude": "-2.107301",
+										"Latitude": "53.480732"
+									},
+									{
+										"Longitude": "-2.107192",
+										"Latitude": "53.480875"
+									},
+									{
+										"Longitude": "-2.106958",
+										"Latitude": "53.481268"
+									},
+									{
+										"Longitude": "-2.106724",
+										"Latitude": "53.481643"
+									}
+								]
+							}
+						},
+						"_id": "59_3"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH05301"
+						},
+						"To": {
+							"StopPointRef": "1800EH39211"
+						},
+						"Distance": "354",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.106724",
+										"Latitude": "53.481643"
+									},
+									{
+										"Longitude": "-2.106553",
+										"Latitude": "53.481902"
+									},
+									{
+										"Longitude": "-2.106291",
+										"Latitude": "53.482178"
+									},
+									{
+										"Longitude": "-2.106258",
+										"Latitude": "53.482303"
+									},
+									{
+										"Longitude": "-2.106405",
+										"Latitude": "53.482484"
+									},
+									{
+										"Longitude": "-2.106616",
+										"Latitude": "53.48253"
+									},
+									{
+										"Longitude": "-2.106721",
+										"Latitude": "53.482558"
+									},
+									{
+										"Longitude": "-2.106871",
+										"Latitude": "53.482613"
+									},
+									{
+										"Longitude": "-2.108139",
+										"Latitude": "53.483339"
+									},
+									{
+										"Longitude": "-2.10824",
+										"Latitude": "53.483582"
+									},
+									{
+										"Longitude": "-2.108208",
+										"Latitude": "53.483671"
+									},
+									{
+										"Longitude": "-2.108146",
+										"Latitude": "53.483725"
+									},
+									{
+										"Longitude": "-2.107691",
+										"Latitude": "53.483838"
+									},
+									{
+										"Longitude": "-2.107403",
+										"Latitude": "53.483917"
+									}
+								]
+							}
+						},
+						"_id": "59_4"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH39211"
+						},
+						"To": {
+							"StopPointRef": "1800EHH1771"
+						},
+						"Distance": "336",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.107403",
+										"Latitude": "53.483917"
+									},
+									{
+										"Longitude": "-2.106037",
+										"Latitude": "53.484284"
+									},
+									{
+										"Longitude": "-2.105218",
+										"Latitude": "53.484493"
+									},
+									{
+										"Longitude": "-2.105067",
+										"Latitude": "53.484501"
+									},
+									{
+										"Longitude": "-2.104886",
+										"Latitude": "53.484509"
+									},
+									{
+										"Longitude": "-2.104765",
+										"Latitude": "53.484526"
+									},
+									{
+										"Longitude": "-2.104583",
+										"Latitude": "53.484534"
+									},
+									{
+										"Longitude": "-2.104493",
+										"Latitude": "53.484542"
+									},
+									{
+										"Longitude": "-2.104371",
+										"Latitude": "53.484577"
+									},
+									{
+										"Longitude": "-2.103991",
+										"Latitude": "53.484718"
+									},
+									{
+										"Longitude": "-2.103914",
+										"Latitude": "53.48478"
+									},
+									{
+										"Longitude": "-2.103883",
+										"Latitude": "53.484843"
+									},
+									{
+										"Longitude": "-2.103895",
+										"Latitude": "53.484986"
+									},
+									{
+										"Longitude": "-2.104043",
+										"Latitude": "53.485131"
+									},
+									{
+										"Longitude": "-2.104175",
+										"Latitude": "53.485302"
+									},
+									{
+										"Longitude": "-2.104293",
+										"Latitude": "53.485464"
+									}
+								]
+							}
+						},
+						"_id": "59_5"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EHH1771"
+						},
+						"To": {
+							"StopPointRef": "1800EH35871"
+						},
+						"Distance": "394",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.104293",
+										"Latitude": "53.485464"
+									},
+									{
+										"Longitude": "-2.104396",
+										"Latitude": "53.485609"
+									},
+									{
+										"Longitude": "-2.104484",
+										"Latitude": "53.485735"
+									},
+									{
+										"Longitude": "-2.10466",
+										"Latitude": "53.485978"
+									},
+									{
+										"Longitude": "-2.105386",
+										"Latitude": "53.485876"
+									},
+									{
+										"Longitude": "-2.105447",
+										"Latitude": "53.485876"
+									},
+									{
+										"Longitude": "-2.105462",
+										"Latitude": "53.485894"
+									},
+									{
+										"Longitude": "-2.105608",
+										"Latitude": "53.486102"
+									},
+									{
+										"Longitude": "-2.105771",
+										"Latitude": "53.486291"
+									},
+									{
+										"Longitude": "-2.1058",
+										"Latitude": "53.486327"
+									},
+									{
+										"Longitude": "-2.10583",
+										"Latitude": "53.486354"
+									},
+									{
+										"Longitude": "-2.105859",
+										"Latitude": "53.48639"
+									},
+									{
+										"Longitude": "-2.106123",
+										"Latitude": "53.486778"
+									},
+									{
+										"Longitude": "-2.106167",
+										"Latitude": "53.486823"
+									},
+									{
+										"Longitude": "-2.106197",
+										"Latitude": "53.486868"
+									},
+									{
+										"Longitude": "-2.106212",
+										"Latitude": "53.486868"
+									},
+									{
+										"Longitude": "-2.106257",
+										"Latitude": "53.486868"
+									},
+									{
+										"Longitude": "-2.106287",
+										"Latitude": "53.486878"
+									},
+									{
+										"Longitude": "-2.106302",
+										"Latitude": "53.486896"
+									},
+									{
+										"Longitude": "-2.106302",
+										"Latitude": "53.486905"
+									},
+									{
+										"Longitude": "-2.106301",
+										"Latitude": "53.486923"
+									},
+									{
+										"Longitude": "-2.106271",
+										"Latitude": "53.486949"
+									},
+									{
+										"Longitude": "-2.106255",
+										"Latitude": "53.486949"
+									},
+									{
+										"Longitude": "-2.106594",
+										"Latitude": "53.487391"
+									},
+									{
+										"Longitude": "-2.106667",
+										"Latitude": "53.487481"
+									},
+									{
+										"Longitude": "-2.106712",
+										"Latitude": "53.487517"
+									},
+									{
+										"Longitude": "-2.106947",
+										"Latitude": "53.487842"
+									},
+									{
+										"Longitude": "-2.107123",
+										"Latitude": "53.488103"
+									}
+								]
+							}
+						},
+						"_id": "59_6"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH35871"
+						},
+						"To": {
+							"StopPointRef": "1800EH08251"
+						},
+						"Distance": "402",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.107123",
+										"Latitude": "53.488103"
+									},
+									{
+										"Longitude": "-2.107343",
+										"Latitude": "53.488437"
+									},
+									{
+										"Longitude": "-2.107887",
+										"Latitude": "53.489149"
+									},
+									{
+										"Longitude": "-2.108137",
+										"Latitude": "53.489474"
+									},
+									{
+										"Longitude": "-2.108254",
+										"Latitude": "53.489663"
+									},
+									{
+										"Longitude": "-2.108313",
+										"Latitude": "53.489735"
+									},
+									{
+										"Longitude": "-2.108519",
+										"Latitude": "53.490006"
+									},
+									{
+										"Longitude": "-2.108666",
+										"Latitude": "53.490186"
+									},
+									{
+										"Longitude": "-2.108857",
+										"Latitude": "53.490447"
+									},
+									{
+										"Longitude": "-2.109004",
+										"Latitude": "53.490637"
+									},
+									{
+										"Longitude": "-2.109151",
+										"Latitude": "53.490844"
+									},
+									{
+										"Longitude": "-2.109254",
+										"Latitude": "53.490979"
+									},
+									{
+										"Longitude": "-2.109577",
+										"Latitude": "53.491412"
+									}
+								]
+							}
+						},
+						"_id": "59_7"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH08251"
+						},
+						"To": {
+							"StopPointRef": "1800EH35971"
+						},
+						"Distance": "338",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.109577",
+										"Latitude": "53.491412"
+									},
+									{
+										"Longitude": "-2.109915",
+										"Latitude": "53.491872"
+									},
+									{
+										"Longitude": "-2.110107",
+										"Latitude": "53.492124"
+									},
+									{
+										"Longitude": "-2.110298",
+										"Latitude": "53.492377"
+									},
+									{
+										"Longitude": "-2.110415",
+										"Latitude": "53.492539"
+									},
+									{
+										"Longitude": "-2.110562",
+										"Latitude": "53.492738"
+									},
+									{
+										"Longitude": "-2.110591",
+										"Latitude": "53.492801"
+									},
+									{
+										"Longitude": "-2.11062",
+										"Latitude": "53.492873"
+									},
+									{
+										"Longitude": "-2.110635",
+										"Latitude": "53.492864"
+									},
+									{
+										"Longitude": "-2.11068",
+										"Latitude": "53.492873"
+									},
+									{
+										"Longitude": "-2.11071",
+										"Latitude": "53.492882"
+									},
+									{
+										"Longitude": "-2.11071",
+										"Latitude": "53.4929"
+									},
+									{
+										"Longitude": "-2.110709",
+										"Latitude": "53.492927"
+									},
+									{
+										"Longitude": "-2.110694",
+										"Latitude": "53.492936"
+									},
+									{
+										"Longitude": "-2.110664",
+										"Latitude": "53.492945"
+									},
+									{
+										"Longitude": "-2.110619",
+										"Latitude": "53.492944"
+									},
+									{
+										"Longitude": "-2.110589",
+										"Latitude": "53.492935"
+									},
+									{
+										"Longitude": "-2.110589",
+										"Latitude": "53.492926"
+									},
+									{
+										"Longitude": "-2.110088",
+										"Latitude": "53.493066"
+									},
+									{
+										"Longitude": "-2.108752",
+										"Latitude": "53.493433"
+									},
+									{
+										"Longitude": "-2.108706",
+										"Latitude": "53.493451"
+									}
+								]
+							}
+						},
+						"_id": "59_8"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH35971"
+						},
+						"To": {
+							"StopPointRef": "1800EH04781"
+						},
+						"Distance": "216",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.108706",
+										"Latitude": "53.493451"
+									},
+									{
+										"Longitude": "-2.108509",
+										"Latitude": "53.493494"
+									},
+									{
+										"Longitude": "-2.108418",
+										"Latitude": "53.49353"
+									},
+									{
+										"Longitude": "-2.108357",
+										"Latitude": "53.493547"
+									},
+									{
+										"Longitude": "-2.108342",
+										"Latitude": "53.493538"
+									},
+									{
+										"Longitude": "-2.108327",
+										"Latitude": "53.493529"
+									},
+									{
+										"Longitude": "-2.108282",
+										"Latitude": "53.49352"
+									},
+									{
+										"Longitude": "-2.108252",
+										"Latitude": "53.493528"
+									},
+									{
+										"Longitude": "-2.108236",
+										"Latitude": "53.493546"
+									},
+									{
+										"Longitude": "-2.108236",
+										"Latitude": "53.493573"
+									},
+									{
+										"Longitude": "-2.107508",
+										"Latitude": "53.493756"
+									},
+									{
+										"Longitude": "-2.105792",
+										"Latitude": "53.494229"
+									}
+								]
+							}
+						},
+						"_id": "59_9"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH04781"
+						},
+						"To": {
+							"StopPointRef": "1800EH14801"
+						},
+						"Distance": "469",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.105792",
+										"Latitude": "53.494229"
+									},
+									{
+										"Longitude": "-2.105352",
+										"Latitude": "53.494342"
+									},
+									{
+										"Longitude": "-2.105352",
+										"Latitude": "53.494351"
+									},
+									{
+										"Longitude": "-2.105351",
+										"Latitude": "53.494378"
+									},
+									{
+										"Longitude": "-2.105336",
+										"Latitude": "53.494396"
+									},
+									{
+										"Longitude": "-2.105321",
+										"Latitude": "53.494396"
+									},
+									{
+										"Longitude": "-2.105291",
+										"Latitude": "53.494404"
+									},
+									{
+										"Longitude": "-2.10526",
+										"Latitude": "53.494404"
+									},
+									{
+										"Longitude": "-2.105231",
+										"Latitude": "53.494386"
+									},
+									{
+										"Longitude": "-2.105216",
+										"Latitude": "53.494377"
+									},
+									{
+										"Longitude": "-2.103667",
+										"Latitude": "53.494796"
+									},
+									{
+										"Longitude": "-2.103147",
+										"Latitude": "53.494407"
+									},
+									{
+										"Longitude": "-2.102091",
+										"Latitude": "53.493619"
+									},
+									{
+										"Longitude": "-2.101481",
+										"Latitude": "53.493158"
+									},
+									{
+										"Longitude": "-2.100782",
+										"Latitude": "53.492623"
+									}
+								]
+							}
+						},
+						"_id": "59_10"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH14801"
+						},
+						"To": {
+							"StopPointRef": "1800EH20921"
+						},
+						"Distance": "241",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.100782",
+										"Latitude": "53.492623"
+									},
+									{
+										"Longitude": "-2.10053",
+										"Latitude": "53.492442"
+									},
+									{
+										"Longitude": "-2.100395",
+										"Latitude": "53.492352"
+									},
+									{
+										"Longitude": "-2.100184",
+										"Latitude": "53.492341"
+									},
+									{
+										"Longitude": "-2.100001",
+										"Latitude": "53.492438"
+									},
+									{
+										"Longitude": "-2.100089",
+										"Latitude": "53.4926"
+									},
+									{
+										"Longitude": "-2.100263",
+										"Latitude": "53.492934"
+									},
+									{
+										"Longitude": "-2.100496",
+										"Latitude": "53.493348"
+									},
+									{
+										"Longitude": "-2.100656",
+										"Latitude": "53.493636"
+									},
+									{
+										"Longitude": "-2.100817",
+										"Latitude": "53.493906"
+									}
+								]
+							}
+						},
+						"_id": "59_11"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH20921"
+						},
+						"To": {
+							"StopPointRef": "1800EH20951"
+						},
+						"Distance": "287",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.100817",
+										"Latitude": "53.493906"
+									},
+									{
+										"Longitude": "-2.101166",
+										"Latitude": "53.494563"
+									},
+									{
+										"Longitude": "-2.101326",
+										"Latitude": "53.494852"
+									},
+									{
+										"Longitude": "-2.101647",
+										"Latitude": "53.49541"
+									},
+									{
+										"Longitude": "-2.102156",
+										"Latitude": "53.496355"
+									}
+								]
+							}
+						},
+						"_id": "59_12"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH20951"
+						},
+						"To": {
+							"StopPointRef": "1800EH21571"
+						},
+						"Distance": "336",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.102156",
+										"Latitude": "53.496355"
+									},
+									{
+										"Longitude": "-2.102229",
+										"Latitude": "53.49649"
+									},
+									{
+										"Longitude": "-2.102331",
+										"Latitude": "53.49667"
+									},
+									{
+										"Longitude": "-2.102477",
+										"Latitude": "53.496931"
+									},
+									{
+										"Longitude": "-2.102696",
+										"Latitude": "53.497319"
+									},
+									{
+										"Longitude": "-2.102813",
+										"Latitude": "53.497508"
+									},
+									{
+										"Longitude": "-2.102943",
+										"Latitude": "53.49776"
+									},
+									{
+										"Longitude": "-2.103031",
+										"Latitude": "53.497913"
+									},
+									{
+										"Longitude": "-2.103075",
+										"Latitude": "53.497985"
+									},
+									{
+										"Longitude": "-2.103176",
+										"Latitude": "53.498192"
+									},
+									{
+										"Longitude": "-2.103337",
+										"Latitude": "53.498471"
+									},
+									{
+										"Longitude": "-2.103438",
+										"Latitude": "53.498678"
+									},
+									{
+										"Longitude": "-2.102485",
+										"Latitude": "53.498761"
+									}
+								]
+							}
+						},
+						"_id": "59_13"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH21571"
+						},
+						"To": {
+							"StopPointRef": "1800EH21591"
+						},
+						"Distance": "218",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.102485",
+										"Latitude": "53.498761"
+									},
+									{
+										"Longitude": "-2.102032",
+										"Latitude": "53.498794"
+									},
+									{
+										"Longitude": "-2.102016",
+										"Latitude": "53.498803"
+									},
+									{
+										"Longitude": "-2.10121",
+										"Latitude": "53.499102"
+									},
+									{
+										"Longitude": "-2.100012",
+										"Latitude": "53.499371"
+									},
+									{
+										"Longitude": "-2.099495",
+										"Latitude": "53.499556"
+									}
+								]
+							}
+						},
+						"_id": "59_14"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH21591"
+						},
+						"To": {
+							"StopPointRef": "1800EH21621"
+						},
+						"Distance": "374",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.099495",
+										"Latitude": "53.499556"
+									},
+									{
+										"Longitude": "-2.099115",
+										"Latitude": "53.499688"
+									},
+									{
+										"Longitude": "-2.098582",
+										"Latitude": "53.499899"
+									},
+									{
+										"Longitude": "-2.098246",
+										"Latitude": "53.500076"
+									},
+									{
+										"Longitude": "-2.097557",
+										"Latitude": "53.500547"
+									},
+									{
+										"Longitude": "-2.097313",
+										"Latitude": "53.500661"
+									},
+									{
+										"Longitude": "-2.096889",
+										"Latitude": "53.500721"
+									},
+									{
+										"Longitude": "-2.096738",
+										"Latitude": "53.500738"
+									},
+									{
+										"Longitude": "-2.096678",
+										"Latitude": "53.500747"
+									},
+									{
+										"Longitude": "-2.095709",
+										"Latitude": "53.500874"
+									},
+									{
+										"Longitude": "-2.095119",
+										"Latitude": "53.500933"
+									},
+									{
+										"Longitude": "-2.094756",
+										"Latitude": "53.50093"
+									},
+									{
+										"Longitude": "-2.094651",
+										"Latitude": "53.500911"
+									}
+								]
+							}
+						},
+						"_id": "59_15"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH21621"
+						},
+						"To": {
+							"StopPointRef": "1800EH20831"
+						},
+						"Distance": "376",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.094651",
+										"Latitude": "53.500911"
+									},
+									{
+										"Longitude": "-2.094245",
+										"Latitude": "53.500846"
+									},
+									{
+										"Longitude": "-2.093103",
+										"Latitude": "53.500577"
+									},
+									{
+										"Longitude": "-2.093071",
+										"Latitude": "53.500622"
+									},
+									{
+										"Longitude": "-2.09295",
+										"Latitude": "53.500648"
+									},
+									{
+										"Longitude": "-2.09286",
+										"Latitude": "53.500621"
+									},
+									{
+										"Longitude": "-2.09266",
+										"Latitude": "53.500789"
+									},
+									{
+										"Longitude": "-2.092599",
+										"Latitude": "53.500852"
+									},
+									{
+										"Longitude": "-2.091097",
+										"Latitude": "53.501917"
+									},
+									{
+										"Longitude": "-2.090501",
+										"Latitude": "53.502263"
+									},
+									{
+										"Longitude": "-2.090425",
+										"Latitude": "53.502298"
+									}
+								]
+							}
+						},
+						"_id": "59_16"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH20831"
+						},
+						"To": {
+							"StopPointRef": "1800EH20811"
+						},
+						"Distance": "295",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.090425",
+										"Latitude": "53.502298"
+									},
+									{
+										"Longitude": "-2.090044",
+										"Latitude": "53.502448"
+									},
+									{
+										"Longitude": "-2.088812",
+										"Latitude": "53.502887"
+									},
+									{
+										"Longitude": "-2.087795",
+										"Latitude": "53.503176"
+									},
+									{
+										"Longitude": "-2.086778",
+										"Latitude": "53.50342"
+									},
+									{
+										"Longitude": "-2.086444",
+										"Latitude": "53.503498"
+									}
+								]
+							}
+						},
+						"_id": "59_17"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH20811"
+						},
+						"To": {
+							"StopPointRef": "1800EHH2361"
+						},
+						"Distance": "420",
+						"Direction": "inbound",
+						"Track": {
+							"Mapping": {
+								"Location": [
+									{
+										"Longitude": "-2.086444",
+										"Latitude": "53.503498"
+									},
+									{
+										"Longitude": "-2.085898",
+										"Latitude": "53.503611"
+									},
+									{
+										"Longitude": "-2.085262",
+										"Latitude": "53.503696"
+									},
+									{
+										"Longitude": "-2.083657",
+										"Latitude": "53.503926"
+									},
+									{
+										"Longitude": "-2.083022",
+										"Latitude": "53.503984"
+									},
+									{
+										"Longitude": "-2.082463",
+										"Latitude": "53.503971"
+									},
+									{
+										"Longitude": "-2.081664",
+										"Latitude": "53.503903"
+									},
+									{
+										"Longitude": "-2.081664",
+										"Latitude": "53.50393"
+									},
+									{
+										"Longitude": "-2.081648",
+										"Latitude": "53.503947"
+									},
+									{
+										"Longitude": "-2.081648",
+										"Latitude": "53.503965"
+									},
+									{
+										"Longitude": "-2.081633",
+										"Latitude": "53.503974"
+									},
+									{
+										"Longitude": "-2.081587",
+										"Latitude": "53.503974"
+									},
+									{
+										"Longitude": "-2.081557",
+										"Latitude": "53.503974"
+									},
+									{
+										"Longitude": "-2.081527",
+										"Latitude": "53.503973"
+									},
+									{
+										"Longitude": "-2.08148",
+										"Latitude": "53.504054"
+									},
+									{
+										"Longitude": "-2.081464",
+										"Latitude": "53.50409"
+									},
+									{
+										"Longitude": "-2.081449",
+										"Latitude": "53.504116"
+									},
+									{
+										"Longitude": "-2.081432",
+										"Latitude": "53.50417"
+									},
+									{
+										"Longitude": "-2.081446",
+										"Latitude": "53.504233"
+									},
+									{
+										"Longitude": "-2.081475",
+										"Latitude": "53.504323"
+									},
+									{
+										"Longitude": "-2.081547",
+										"Latitude": "53.504458"
+									},
+									{
+										"Longitude": "-2.081635",
+										"Latitude": "53.504593"
+									},
+									{
+										"Longitude": "-2.081724",
+										"Latitude": "53.504692"
+									},
+									{
+										"Longitude": "-2.081945",
+										"Latitude": "53.504954"
+									}
+								]
+							}
+						},
+						"_id": "59_18"
+					}
+				],
+				"_id": "59"
+			}
+		},
+		"Routes": {
+			"Route": {
+				"PrivateCode": "1",
+				"Description": "Great Academy Ashton - Guide Bridge",
+				"RouteSectionRef": "59",
+				"_id": "60"
+			}
+		},
+		"JourneyPatternSections": {
+			"JourneyPatternSection": {
+				"JourneyPatternTimingLink": [
+					{
+						"From": {
+							"StopPointRef": "1800EH05241",
+							"TimingStatus": "PTP",
+							"_id": "8",
+							"_SequenceNumber": "1"
+						},
+						"To": {
+							"StopPointRef": "1800EH05261",
+							"TimingStatus": "OTH",
+							"_id": "9",
+							"_SequenceNumber": "2"
+						},
+						"RouteLinkRef": "59_1",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "4"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH05261",
+							"TimingStatus": "OTH",
+							"_id": "10",
+							"_SequenceNumber": "2"
+						},
+						"To": {
+							"StopPointRef": "1800EH05291",
+							"TimingStatus": "OTH",
+							"_id": "11",
+							"_SequenceNumber": "3"
+						},
+						"RouteLinkRef": "59_2",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "5"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH05291",
+							"TimingStatus": "OTH",
+							"_id": "12",
+							"_SequenceNumber": "3"
+						},
+						"To": {
+							"StopPointRef": "1800EH05301",
+							"TimingStatus": "OTH",
+							"_id": "13",
+							"_SequenceNumber": "4"
+						},
+						"RouteLinkRef": "59_3",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "6"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH05301",
+							"TimingStatus": "OTH",
+							"_id": "14",
+							"_SequenceNumber": "4"
+						},
+						"To": {
+							"StopPointRef": "1800EH39211",
+							"TimingStatus": "OTH",
+							"_id": "15",
+							"_SequenceNumber": "5"
+						},
+						"RouteLinkRef": "59_4",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "7"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH39211",
+							"TimingStatus": "OTH",
+							"_id": "16",
+							"_SequenceNumber": "5"
+						},
+						"To": {
+							"StopPointRef": "1800EHH1771",
+							"TimingStatus": "OTH",
+							"_id": "17",
+							"_SequenceNumber": "6"
+						},
+						"RouteLinkRef": "59_5",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "8"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EHH1771",
+							"TimingStatus": "OTH",
+							"_id": "18",
+							"_SequenceNumber": "6"
+						},
+						"To": {
+							"StopPointRef": "1800EH35871",
+							"TimingStatus": "OTH",
+							"_id": "19",
+							"_SequenceNumber": "7"
+						},
+						"RouteLinkRef": "59_6",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "9"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH35871",
+							"TimingStatus": "OTH",
+							"_id": "20",
+							"_SequenceNumber": "7"
+						},
+						"To": {
+							"StopPointRef": "1800EH08251",
+							"TimingStatus": "OTH",
+							"_id": "21",
+							"_SequenceNumber": "8"
+						},
+						"RouteLinkRef": "59_7",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "10"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH08251",
+							"TimingStatus": "OTH",
+							"_id": "22",
+							"_SequenceNumber": "8"
+						},
+						"To": {
+							"StopPointRef": "1800EH35971",
+							"TimingStatus": "PTP",
+							"_id": "23",
+							"_SequenceNumber": "9"
+						},
+						"RouteLinkRef": "59_8",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "11"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH35971",
+							"TimingStatus": "PTP",
+							"_id": "24",
+							"_SequenceNumber": "9"
+						},
+						"To": {
+							"StopPointRef": "1800EH04781",
+							"TimingStatus": "OTH",
+							"_id": "25",
+							"_SequenceNumber": "10"
+						},
+						"RouteLinkRef": "59_9",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "12"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH04781",
+							"TimingStatus": "OTH",
+							"_id": "26",
+							"_SequenceNumber": "10"
+						},
+						"To": {
+							"StopPointRef": "1800EH14801",
+							"TimingStatus": "OTH",
+							"_id": "27",
+							"_SequenceNumber": "11"
+						},
+						"RouteLinkRef": "59_10",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "13"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH14801",
+							"TimingStatus": "OTH",
+							"_id": "28",
+							"_SequenceNumber": "11"
+						},
+						"To": {
+							"StopPointRef": "1800EH20921",
+							"TimingStatus": "OTH",
+							"_id": "29",
+							"_SequenceNumber": "12"
+						},
+						"RouteLinkRef": "59_11",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "14"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH20921",
+							"TimingStatus": "OTH",
+							"_id": "30",
+							"_SequenceNumber": "12"
+						},
+						"To": {
+							"StopPointRef": "1800EH20951",
+							"TimingStatus": "OTH",
+							"_id": "31",
+							"_SequenceNumber": "13"
+						},
+						"RouteLinkRef": "59_12",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "15"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH20951",
+							"TimingStatus": "OTH",
+							"_id": "32",
+							"_SequenceNumber": "13"
+						},
+						"To": {
+							"StopPointRef": "1800EH21571",
+							"TimingStatus": "OTH",
+							"_id": "33",
+							"_SequenceNumber": "14"
+						},
+						"RouteLinkRef": "59_13",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "16"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH21571",
+							"TimingStatus": "OTH",
+							"_id": "34",
+							"_SequenceNumber": "14"
+						},
+						"To": {
+							"StopPointRef": "1800EH21591",
+							"TimingStatus": "OTH",
+							"_id": "35",
+							"_SequenceNumber": "15"
+						},
+						"RouteLinkRef": "59_14",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "17"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH21591",
+							"TimingStatus": "OTH",
+							"_id": "36",
+							"_SequenceNumber": "15"
+						},
+						"To": {
+							"StopPointRef": "1800EH21621",
+							"TimingStatus": "OTH",
+							"_id": "37",
+							"_SequenceNumber": "16"
+						},
+						"RouteLinkRef": "59_15",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "18"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH21621",
+							"TimingStatus": "OTH",
+							"_id": "38",
+							"_SequenceNumber": "16"
+						},
+						"To": {
+							"StopPointRef": "1800EH20831",
+							"TimingStatus": "OTH",
+							"_id": "39",
+							"_SequenceNumber": "17"
+						},
+						"RouteLinkRef": "59_16",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "19"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH20831",
+							"TimingStatus": "OTH",
+							"_id": "40",
+							"_SequenceNumber": "17"
+						},
+						"To": {
+							"StopPointRef": "1800EH20811",
+							"TimingStatus": "OTH",
+							"_id": "41",
+							"_SequenceNumber": "18"
+						},
+						"RouteLinkRef": "59_17",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "20"
+					},
+					{
+						"From": {
+							"StopPointRef": "1800EH20811",
+							"TimingStatus": "OTH",
+							"_id": "42",
+							"_SequenceNumber": "18"
+						},
+						"To": {
+							"StopPointRef": "1800EHH2361",
+							"TimingStatus": "PTP",
+							"_id": "43",
+							"_SequenceNumber": "19"
+						},
+						"RouteLinkRef": "59_18",
+						"Direction": "inbound",
+						"RunTime": "PT0M0S",
+						"_id": "21"
+					}
+				],
+				"_id": "3"
+			}
+		},
+		"Operators": {
+			"LicensedOperator": {
+				"NationalOperatorCode": "SCMN",
+				"OperatorCode": "SMA",
+				"OperatorShortName": "Stagecoach",
+				"OperatorNameOnLicence": "Greater Manchester Buses South Ltd",
+				"TradingName": "Stagecoach Manchester",
+				"LicenceNumber": "PC0003681",
+				"LicenceClassification": "standardNational",
+				"EnquiryTelephoneNumber": {
+					"TelNationalNumber": "0161 228 7811"
+				},
+				"ContactTelephoneNumber": {
+					"TelNationalNumber": "0161 276 2529"
+				},
+				"OperatorAddresses": {
+					"CorrespondenceAddress": {
+						"Line": [
+							{
+								"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+								"__prefix": "apd",
+								"__text": "Hyde Road"
+							},
+							{
+								"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+								"__prefix": "apd",
+								"__text": "Manchester"
+							}
+						],
+						"PostCode": {
+							"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+							"__prefix": "apd",
+							"__text": "M12 6JS"
+						}
+					}
+				},
+				"EmailAddress": "schedules.manchetser@stagecoachbus.com",
+				"Garages": {
+					"Garage": [
+						{
+							"GarageCode": "AZ",
+							"GarageName": "Ashton Depot",
+							"ContactNumber": {
+								"TelNationalNumber": "0161 276 2500"
+							},
+							"Address": {
+								"Line": [
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "Whitelands Road"
+									},
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "Ashton - u - Lyne,"
+									}
+								]
+							}
+						},
+						{
+							"GarageCode": "HE",
+							"GarageName": "Hyde Road Depot",
+							"ContactNumber": {
+								"TelNationalNumber": "0161 276 2550"
+							},
+							"Address": {
+								"Line": [
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "Hyde Road"
+									},
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "Manchester, Gtr Manchester"
+									},
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "M12 6JS"
+									}
+								]
+							}
+						},
+						{
+							"GarageCode": "MN",
+							"GarageName": "Middleton Depot",
+							"ContactNumber": {
+								"TelNationalNumber": "0161 276 2528"
+							},
+							"Address": {
+								"Line": [
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "GREENGATE"
+									},
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "MIDDLETON,"
+									},
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "M24 1RU"
+									}
+								]
+							}
+						},
+						{
+							"GarageCode": "SH",
+							"GarageName": "Sharston",
+							"ContactNumber": {
+								"TelNationalNumber": "0161 276 2541"
+							},
+							"Address": {
+								"Line": [
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "Leestone Road"
+									},
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "Manchester, Gtr Manchetser"
+									},
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "M22 4RB"
+									}
+								]
+							}
+						},
+						{
+							"GarageCode": "ST",
+							"GarageName": "Stockport Depot",
+							"ContactNumber": {
+								"TelNationalNumber": "0161 276 2553"
+							},
+							"Address": {
+								"Line": [
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "MERSEY STREET"
+									},
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "Stockport, Cheshire"
+									},
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "SK3 0DU"
+									}
+								]
+							}
+						},
+						{
+							"GarageCode": "WNDEP",
+							"GarageName": "WIGAN DEPOT",
+							"ContactNumber": {
+								"TelNationalNumber": "0161 276 2528"
+							},
+							"Address": {
+								"Line": [
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "LOCKETT ROAD"
+									},
+									{
+										"_xmlns:apd": "http://www.govtalk.gov.uk/people/AddressAndPersonalDetails",
+										"__prefix": "apd",
+										"__text": "Bryn, Greater Manchester"
+									}
+								]
+							}
+						}
+					]
+				},
+				"_id": "1"
+			}
+		},
+		"Services": {
+			"Service": {
+				"ServiceCode": "Y45",
+				"Lines": {
+					"Line": {
+						"LineName": "Y45",
+						"_id": "2"
+					}
+				},
+				"OperatingPeriod": {
+					"StartDate": "2020-11-29"
+				},
+				"ServiceClassification": {
+					"NormalStopping": ""
+				},
+				"RegisteredOperatorRef": "1",
+				"StopRequirements": {
+					"NoNewStopsRequired": ""
+				},
+				"Description": "New service introduced by T.f.G.M. contract.",
+				"StandardService": {
+					"Origin": "Great Academy Ashton",
+					"Destination": "Guide Bridge",
+					"UseAllStopPoints": "true",
+					"JourneyPattern": {
+						"PrivateCode": "357793",
+						"DestinationDisplay": "Great Academy Ashton",
+						"Direction": "inbound",
+						"RouteRef": "60",
+						"JourneyPatternSectionRefs": "3",
+						"_id": "1"
+					}
+				},
+				"Direction": "inbound"
+			}
+		},
+		"VehicleJourneys": {
+			"VehicleJourney": {
+				"PrivateCode": "10084961",
+				"Operational": {
+					"Block": {
+						"Description": "M603A",
+						"BlockNumber": "M603A"
+					},
+					"VehicleType": {
+						"VehicleTypeCode": "CVERSAY",
+						"Description": "Optare Versa YSB"
+					},
+					"TicketMachine": {
+						"TicketMachineServiceCode": "Y45",
+						"JourneyCode": "7002"
+					}
+				},
+				"OperatingProfile": {
+					"RegularDayType": {
+						"DaysOfWeek": {
+							"MondayToFriday": ""
+						}
+					},
+					"ServicedOrganisationDayType": {
+						"DaysOfOperation": {
+							"WorkingDays": {
+								"ServicedOrganisationRef": "Sch"
+							}
+						}
+					},
+					"SpecialDaysOperation": "",
+					"BankHolidayOperation": {
+						"DaysOfNonOperation": {
+							"AllBankHolidays": "",
+							"EarlyRunOffDays": ""
+						}
+					}
+				},
+				"LayoverPoint": {
+					"Duration": "PT3M0S",
+					"Name": "Tameside General Hospital",
+					"Location": {
+						"Longitude": "-2.074041",
+						"Latitude": "53.492141"
+					}
+				},
+				"GarageRef": "MN",
+				"VehicleJourneyCode": "10084961",
+				"ServiceRef": "Y45",
+				"LineRef": "2",
+				"JourneyPatternRef": "1",
+				"DepartureTime": "07:40:00",
+				"VehicleJourneyTimingLink": [
+					{
+						"JourneyPatternTimingLinkRef": "4",
+						"RunTime": "PT0M40S",
+						"_id": "23"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "5",
+						"RunTime": "PT1M12S",
+						"_id": "24"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "6",
+						"RunTime": "PT0M32S",
+						"_id": "25"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "7",
+						"RunTime": "PT1M5S",
+						"_id": "26"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "8",
+						"RunTime": "PT1M1S",
+						"_id": "27"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "9",
+						"RunTime": "PT1M12S",
+						"_id": "28"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "10",
+						"RunTime": "PT1M13S",
+						"_id": "29"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "11",
+						"RunTime": "PT1M5S",
+						"_id": "30"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "12",
+						"RunTime": "PT0M48S",
+						"_id": "31"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "13",
+						"RunTime": "PT1M44S",
+						"_id": "32"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "14",
+						"RunTime": "PT0M53S",
+						"_id": "33"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "15",
+						"RunTime": "PT1M3S",
+						"_id": "34"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "16",
+						"RunTime": "PT1M14S",
+						"_id": "35"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "17",
+						"RunTime": "PT0M48S",
+						"_id": "36"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "18",
+						"RunTime": "PT1M23S",
+						"_id": "37"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "19",
+						"RunTime": "PT1M23S",
+						"_id": "38"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "20",
+						"RunTime": "PT1M5S",
+						"_id": "39"
+					},
+					{
+						"JourneyPatternTimingLinkRef": "21",
+						"RunTime": "PT1M39S",
+						"_id": "40"
+					}
+				]
+			}
+		},
+		"Registrations": {
+			"Registration": {
+				"ServiceRef": "Y45",
+				"SubmissionDate": "2020-08-21",
+				"VosaRegistrationNumber": {
+					"TanCode": "PC",
+					"LicenceNumber": "0003681",
+					"RegistrationNumber": "690"
+				},
+				"ApplicationClassification": "new",
+				"VariationNumber": "0",
+				"SubmissionAuthor": {
+					"Position": "Network Manager",
+					"Title": "Mr",
+					"Forename": "Adam",
+					"Surname": "Clark"
+				},
+				"TrafficAreas": {
+					"TrafficArea": {
+						"TrafficAreaName": "NorthWestern"
+					}
+				},
+				"CirculatedAuthorities": {
+					"CirculatedAuthority": {
+						"AuthorityName": "GMPTE"
+					}
+				},
+				"SubsidyDetails": {
+					"Subsidy": {
+						"SubsidyType": "full",
+						"SubsidisingAuthority": "TfGM"
+					}
+				},
+				"SupportingDocuments": {
+					"SupportingDocument": {
+						"DocumentUri": "XMAS Hol Matrix v1.xls"
+					}
+				},
+				"ShortNoticeRegistration": {
+					"PublicAvailability": {
+						"AvailableToPublic": ""
+					},
+					"ChangeImpact": {
+						"ChangeDoesNotExceedLimit": {
+							"MinorChangeDescription": "New service introduced by T.f.G.M. contract."
+						}
+					},
+					"ChangeRequestedByExternalAuthority": {
+						"ChangeRequestDescription": "New service introduced by T.f.G.M. contract."
+					}
+				}
+			}
+		},
+		"_xsi:schemaLocation": "http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_registration.xsd",
+		"_CreationDateTime": "2020-11-13T10:26:58",
+		"_ModificationDateTime": "2020-11-13T10:26:58",
+		"_RegistrationDocument": "true",
+		"_Modification": "new",
+		"_RevisionNumber": "0",
+		"_FileName": "Y45_SMA_PC_Y45_20201129.xml",
+		"_SchemaVersion": "2.1",
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xmlns": "http://www.transxchange.org.uk/"
+	}
+}

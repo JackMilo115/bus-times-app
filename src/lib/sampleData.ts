@@ -1,3 +1,4 @@
+import sampleData from '../assets/sampleData.json'
 const BASE_URL = 'https://data.bus-data.dft.gov.uk'
 
 export async function getTimetableData(){
@@ -76,4 +77,9 @@ export async function getTimetableData(){
             }
         ]
     }
+}
+
+/** from xml file */
+export async function getTimetable(){
+    return sampleData
 }
