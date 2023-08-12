@@ -1,10 +1,9 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
+  import TimeTable from './lib/TimeTable.svelte';
 </script>
 
 <main>
-  
+  <TimeTable/>
 </main>
 
 <style>
